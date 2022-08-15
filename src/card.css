@@ -1,0 +1,131 @@
+
+#card_cover{
+    width: 50%;
+    /* border:1px solid red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.2);
+
+}
+
+
+#areaCover{
+    width:170px;
+    height:160px;
+    position: relative;
+    /* border:1px solid red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.bi-quote{
+    position:absolute;
+    top:1rem;
+    left:1rem;
+    z-index: 10;
+    transform:rotate(180deg);
+    color:white;
+    padding:0.5rem;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 253);
+}
+
+#imageCover{
+    position:absolute;
+    right:0rem;
+    top:0rem;
+
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 253);
+    
+
+}
+
+
+#resim{
+    position:absolute;
+    top: 0.3rem;
+    left: 0.8rem;
+
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    user-select: none;
+
+}
+
+#name{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:rgb(32, 32, 32);
+    margin-bottom: 0rem;
+    user-select: none;
+}
+
+#job{
+    margin-top:0.25rem;
+    font-weight: 200;
+    color: rgb(85, 85, 253);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    user-select: none;
+}
+
+#text{
+    margin-top:0.25rem;
+    width: auto;
+    color: rgb(32, 32, 97);
+    text-align: center;
+    user-select: none;
+
+
+}
+
+.hareket{
+    color:rgb(85, 85, 253);
+    width:25px;
+    height: 25px;
+    margin: 0rem 0.5rem;
+}
+
+.hareket:hover{
+    cursor:pointer;
+}
+
+#surprise{
+    outline:none;
+    border:none;
+    background-color: rgb(212, 252, 238);
+    color:rgb(135, 135, 172);
+    padding:0.35rem 0.6rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    user-select: none;
+    
+}
+
+#surprise:hover{
+    cursor:pointer;
+}
+
+
+
+
+
+
+
